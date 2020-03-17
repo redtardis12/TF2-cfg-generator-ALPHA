@@ -34,14 +34,14 @@ Simple app to configure your **Team Fortress 2**
 #### Добавление чекбокса
 Если вы знаете настройку, принимающюю 2 значения: 0 и 1, то вам нужно добавить именно *чекбокс*.
 Используйте этот код со своими значениями:
-```
+```python
 check_var5 = IntVar()
 check5 = Checkbutton(frame, text='Описание команды', onvalue=1, offvalue=0, variable=check_var5, font=myFont, command=lambda: on_click(check_var5, "команда без значения (наример: r_shadows)")).pack(anchor=W, padx=2)
 ```
 1. `check_var5` и `check5` замените на свои имена переменных, эти же имена укажите в `variable=check_var5` и `on_click(check_var5,`
 2. `Checkbutton(frame`: Тут `frame` - опция будет в 1-ом окне ("графика"), `frame1` - во 2-ом ("интерфейс"), `frame2` в 3-ем ("геймплей"). Постарайтесь добавлять свои команды в подходящие окна с категориями
 3. Найдите словарь preset_configs (54-ая строка в main.py) и добавьте в него:
-```
+```python
 "команда без значения (наример: r_shadows)": "0",
 ```
 
