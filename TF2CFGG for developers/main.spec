@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\Егор\\Desktop\\Programming\\TF2-cfg-generator-ALPHA\\TF2CFGG for developers'],
+             pathex=['C:\\Users\\User\\Desktop\\JS\\TF2-cfg-generator-ALPHA\\TF2CFGG for developers'],
              binaries=[],
              datas=[],
              hiddenimports=[],

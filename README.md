@@ -6,7 +6,7 @@ Simple app to configure your **Team Fortress 2**
 Простой способ настроить **Team Fortress 2**
 
 ***!Внимание! Эта программа в АЛЬФА-тестировании!***
-### [Скачать (последняя версия 0.0.2 альфа)](https://github.com/redtardis12/TF2-cfg-generator-ALPHA/raw/master/Setup.exe)
+### [Скачать (последняя версия 0.0.3 альфа)](https://github.com/redtardis12/TF2-cfg-generator-ALPHA/raw/master/Setup.exe)
 Эта программа позволит вам отключить или добавить функции, которых нет в меню настроек игры - не нужно скачивать конфиги из интернета или использовать консоль. Вы можете улучшить оптимизацию игры (а вернее, её добавить), убрать пинг или сделать интерфейс играбельным (чем он не является по умолчанию). 
 
 #### Как пользоватся?
@@ -46,7 +46,7 @@ check5 = Checkbutton(frame, text='Описание команды', onvalue=1, o
 ```
 
 ## EN
-### [Download (latest version 0.0.2 alpha)](https://github.com/redtardis12/TF2-cfg-generator-ALPHA/raw/master/Setup.exe)
+### [Download (latest version 0.0.3 alpha)](https://github.com/redtardis12/TF2-cfg-generator-ALPHA/raw/master/Setup.exe)
 
 This program will allow you to disable or add features that are not in the game settings menu - no need to download configs from the Internet or use the console. You can improve the optimization of the game (or rather, add it), remove ping or make the interface playable (which it is not by default).
 
